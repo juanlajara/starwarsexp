@@ -55,10 +55,9 @@ app.get("/darthmaul", function (req, res) {
 // YOUR CODE GOES HERE
 //
 //
-app.get("/obiwankenobi"),
-	function (req, res) {
-		res.json(obiwankenobi);
-	};
+app.get("/obiwankenobi", function (req, res) {
+	res.json(obiwankenobi);
+});
 // Listener
 // ===========================================================
 app.listen(PORT, function () {
